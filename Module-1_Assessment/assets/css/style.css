@@ -1,0 +1,143 @@
+
+html {
+    position: relative;
+    min-height: 100%;
+    
+   
+  }
+  .navbar-brand{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 10px;
+    margin-left: 16vw;
+    background-color: #4aaaa5;
+    color: white !important;
+    
+    font-weight: bold
+    
+  }
+  navbar{
+    background-color: #ffffff !important;
+    width: 100%;;  
+  }
+  header .navbar{
+      background-color:#ffffff;
+  }
+  .navbar ul{
+      margin-right: 16vw;
+  }
+  .navbar a {
+    font-family: 'Georgia', Times, Times New Roman, serif;  
+    
+  }
+  body {
+     
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-bottom: 40px; /* Margin bottom by footer height */
+    
+    background-image: url('../images/moroccan-flower.png');
+    color: #777777; 
+    min-height: 100%;
+    display: grid;
+  grid-template-rows: 1fr auto;
+    
+  }
+  .jumbotron{
+    background-color: #ffffff;
+    max-width: 960px;
+    height: 80vh;
+    margin-top: 10px !important;
+   padding-top: 20px !important;
+   
+   margin-left:-10px;
+   margin-top:-10px;
+   height:90%;
+   min-width:80% !important;
+   position:relative;
+   margin-bottom:0px;
+padding-bottom:40px;
+   
+ }
+ .jumbotron p{
+    height:100%;
+    width:100%;
+    max-width:100%;
+    margin-bottom: 5px;
+
+}
+
+form{
+    min-width: 30vw;
+}
+form .form-group{
+    color: #777777;
+}
+.form-group {
+    margin-bottom: 5px;
+}
+form .label{
+    color: #777777;
+}
+
+form .btn-info{
+    margin-bottom: 5px;
+    background-color:#4aaaa5 !important;
+    
+}
+ h3{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    top: 0;
+  }
+  hr {
+    border-color: #dddddd;
+  }
+
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px; /* Set the fixed height of the footer here */
+    line-height: 40px; /* Vertically center the text there */
+    background-color: #666666;
+    left: 0;
+    right: 0;
+    border-top: 5px solid #4aaaa5;
+  }
+  
+
+  
+  p{
+      margin-left: 10px;
+  }
+  .text-block {
+    text-align: center;
+    height: 15%;
+    position: absolute;
+    bottom: 20px;
+    margin-bottom:1%;
+    right: 15px;
+    left: 15px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    
+  }
+
+  img {
+
+    padding-bottom: 15px;
+   
+  } 
+
+  
+  .container {
+    width: auto;
+    
+    padding: 0 15px;
+  }
+ 
+  
+   
