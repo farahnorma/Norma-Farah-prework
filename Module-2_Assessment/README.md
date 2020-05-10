@@ -1,5 +1,4 @@
-# Module-2_Assessment
-# Word Guess Game
+# Module 2 Assessment-Word Guess Game
 
 This project is intended to create a digital word guessing game.
 Like a traditional game of hangman, the user must guess a word, initially only knowing the length of the word.
