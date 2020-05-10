@@ -1,0 +1,30 @@
+html{ 
+  background-color: cornflowerblue;
+  background-image: url('../images/spacebackground.jpg');
+}
+header{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Orbitron', sans-serif;
+}
+.container{
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: auto;
+  text-align: center;
+  padding: 25px;
+  width:50%;
+  font-family: 'Orbitron', sans-serif;
+}
+h1{
+  margin-top:10px;
+  text-shadow:
+    -3px -3px 0 gray,
+    3px -3px 0 gray,
+    -3px 3px 0 gray,
+    3px 3px 0 gray;
+}
+p{
+  margin-bottom: 20px;
+}
+

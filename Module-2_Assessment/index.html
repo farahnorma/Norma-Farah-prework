@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Word: Space Edition</title>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body> 
+    <header>
+               <audio controls autoplay id="song">
+            <source src="assets/sounds/theme.mp3" type="audio/mpeg">
+        </audio>  <h1 >HANGMAN: SPACE EDITION</h1>
+        
+    </header>
+    
+    <div class="container">
+        <div class="gif">
+            <img id="giphy-embed" src="" frameBorder="0" width="25%">
+        </div>
+        <p>Press any key to get started!</p>
+        Wins:<br> <span id="winCount"></span>
+        <br>          
+        Current Word <br> <h3 id="currentWord"></h3>
+        <br>
+        Number of Guesses Remaining:<br> <span id="remainingGuesses"></span>
+        <br>
+        Letters Already Guessed:<br> <span id="wrongLetters"></span>
+        
+        
+        
+     
+    </div>
+
+<div>
+    <audio id="correctAnswerSound">
+        <source src="./assets/sounds/correctAnswer.mp3" type="audio/mp3">
+    </audio>
+    <audio id="wrongAnswerSound">
+        <source src="./assets/sounds/wrongAnswer.mp3" type="audio/mp3">
+    </audio>
+    <audio id="loseSound">
+        <source src="./assets/sounds/loseRound.mp3" type="audio/mp3">
+    </audio>
+    <audio id="scoobydoo">
+        <source src="./assets/sounds/winRound" type="audio/mp3">
+    </audio>
+    
+    
+</div>
+
+    <script src="assets/javascript/game.js">
+
+    </script>
+</body>
+
+</html>
